@@ -38,5 +38,5 @@ BaiduVoiceHelper.startBaiduVoiceDialogForResult(ApiActivity.this,
 ```
 效果图：<br>
 ![Img](https://github.com/dxjia/BaiduVoiceHelper/blob/master/Screenshot.jpeg)
-### 2.2 使用REST API方式
+### 2.2 使用API方式
 这种方式请直接参考官方文档：[http://yuyin.baidu.com/docs/asr](http://yuyin.baidu.com/docs/asr)<br>
