@@ -9,7 +9,7 @@
 #Usage
 ## 1.引入库
 ### 1.1 引用本地aar
-首先将[baduvoicehelper-0.1.aar](https://github.com/dxjia/BaiduVoiceHelper/raw/master/baduvoicehelper-0.2.0.aar)下载到本地，放入自己的app下的libs目录里；<br>
+首先将[baduvoicehelper-0.2.0.aar](https://github.com/dxjia/BaiduVoiceHelper/raw/master/baduvoicehelper-0.2.0.aar)下载到本地，放入自己的app下的libs目录里；<br>
 然后app下的build.gradle里依照下面的方式添加依赖:<br>
 ```java
 repositories {
