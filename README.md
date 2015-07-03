@@ -29,7 +29,7 @@ grdle sync之后就可以使用啦
 ```java
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
- 	  compile 'com.dxjia.baiduvoicehelper:library:0.1'
+    compile 'com.dxjia.baiduvoicehelper:library:0.1'
 }
 ```
 ## 2. 使用
