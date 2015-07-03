@@ -8,8 +8,25 @@
     本文提供的aar库，内部还是直接使用的Baidu官方提供的jar和so，仅仅是利用aar机制将res也一起打包进去，方便在android studio 中引用。demo代码基本都来自Baidu demo，版权请参考官方网站。相信官方之后也会出aar库的。
 #Usage
 ## 1.引入库
+### 1.1 引用本地aar
+首先将[baduvoicehelper-0.1.aar](https://github.com/dxjia/BaiduVoiceHelper/raw/master/baduvoicehelper-0.1.aar)下载到本地，放入自己的app下的libs目录里；<br>
+然后app下的build.gradle里依照下面的方式添加依赖:<br>
 ```java
-TODO, use via grdle
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile(name: 'baduvoicehelper-0.1', ext: 'aar')
+}
+```
+grdle sync之后就可以使用啦
+### 1.2 通过jcenter
+```java
+    TODO, jcnter 审核中
 ```
 ## 2. 使用
 ### 2.1 调用默认控件
