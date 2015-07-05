@@ -25,7 +25,7 @@ dependencies {
 ```
 grdle sync之后就可以使用啦
 ### 1.2 通过jcenter
-该库已上传到jcenter，在app下的gradle下添加依赖
+第二种方式是通过jcenter，该库已上传到jcenter，在app下的gradle下添加依赖即可使用：
 ```java
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
