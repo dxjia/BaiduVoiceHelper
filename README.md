@@ -1,5 +1,5 @@
 # BaiduVoiceHelper
-可在Android Studio上直接使用的Baidu Voice SDK aar版本。对应Baidu Voice SDK版本为1.0.0<br>
+可在Android Studio上直接使用的Baidu Voice SDK aar版本。对应Baidu Voice SDK版本为 `2.0.1` <br>
 百度语音官方地址: [http://yuyin.baidu.com/](http://yuyin.baidu.com/)
 # About
   百度官方目前开放的android sdk，是jar+so+res文件的形式，还没有提供可直接用于android studio的aar版本<br>
