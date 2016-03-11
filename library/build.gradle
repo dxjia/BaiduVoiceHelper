@@ -28,7 +28,7 @@ dependencies {
 	compile 'com.android.support:support-v4:+'
 }
 
-
+/*
 // ------  publish task begin ------
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
@@ -109,3 +109,4 @@ bintray {
 }
 
 // ------  publish task end ------
+*/
